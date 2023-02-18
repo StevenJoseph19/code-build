@@ -24,7 +24,7 @@ Resources:
         Auth:
             Type: OAUTH 
         BuildSpec: python-example/buildspec.yml
-        Location: https://github.com/wes-novack/codebuild-demo
+        Location: https://github.com/StevenJoseph19/code-build
       TimeoutInMinutes: 5 
   CodeBuildRole:
     Type: AWS::IAM::Role
