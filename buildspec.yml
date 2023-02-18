@@ -6,7 +6,8 @@ phases:
       - echo Nothing to do in the install phase...
   pre_build:
     commands:
-      - cd java-example 
+     # - cd java-example 
+      - echo Pre Build started on `date`
   build:
     commands:
       - echo Build started on `date`
