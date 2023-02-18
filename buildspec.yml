@@ -16,7 +16,7 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - java-example/target/messageUtil-1.0.jar
+    - target/messageUtil-1.0.jar
 cache:
   paths:
     - '/root/.m2/**/*'
